@@ -1,0 +1,173 @@
+html {
+    background-image: url(./pineapples.jpeg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color:rgb(224, 220, 220)
+}
+
+body {
+    font-family: 'Nunito',sans-serif;
+}
+
+.title{
+    font-size: 2em;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-family: 'Inconsolata';
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px auto;
+    width: 80%;
+
+}
+
+.color-container , .font-container , .text-stlye-container {
+    margin: 10px auto;
+    z-index: auto;
+    width: 80%;
+}
+
+.color-title {
+    color: white;
+}
+
+.font-title {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.color-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-image: url(./coluh.jpg);
+}
+
+.font-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-image: url(./fonts.jpg);
+    text-align: center;
+}
+
+.text-stlye-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+p {
+    text-align: center;
+    z-index: 10px;
+}
+
+.text-inside-color {
+    font-weight: bold;
+}
+
+.cool-blue {
+    display: inline-block;
+    background-color: rgba(49, 75, 218, 0.945);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.forest-green {
+    display: inline-block;
+    background-color: rgb(30, 99, 30);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.beige {
+    display: inline-block;
+    background-color: rgb(184, 184, 110);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.heather-grey {
+    display: inline-block;
+    background-color: rgba(102, 99, 99, 0.863);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.hunter-orange {
+    display: inline-block;
+    background-color: rgb(255, 174, 0);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+.first-nunito {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 90%;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 25%;
+}
+
+.second-montserrat {
+    display: inline-block;
+    font-family: 'Montserrat',serif;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 90%;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 25%;
+}
+
+.third-inconsolata {
+    display: inline-block;
+    font-family: 'Inconsolata',serif;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 90%;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 25%;
+}
